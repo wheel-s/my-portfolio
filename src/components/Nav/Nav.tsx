@@ -32,7 +32,7 @@ const Nav = () => {
               <img src={redit} alt={'nav...'} width={32} className='h-8 mr-2' />   
               <p className='mt-2 text-gray-700 text-[1.1rem] mb-7'>Reddit</p>
             </NavLink>
-            <NavLink to='https://linkedin.com/in/linkedin.com/in/george-🦅-0b5b062b3' target='blank' className=' flex hover'>
+            <NavLink to='https://linkedin.com/in/george-🦅-0b5b062b3' target='blank' className=' flex hover'>
               <img src={linkedin} alt={'nav...'} width={32} className='h-[2rem] mr-2' />   
               <p className='mt-1 text-gray-700 text-[1.1rem] mb-7'>LinkedIn</p>
             </NavLink>
@@ -47,7 +47,7 @@ const Nav = () => {
            <div className=' fixed bg-[#ffffffe6] flex justify-around m-5 border-1 border-gray-400 p-[8px] w-[36rem] rounded-xl '>
              <img src={home} alt={'nav...'} width={35} className='h-8 mr-2 mt-2 '  onClick={()=>window.scrollTo({top:0, behavior:'smooth'})}/>
             <NavLink to='https://github.com/wheel-s' target='blank'><hr className='w-2'/> <img src={github} alt={'nav...'} width={34} className='h-8 mr-2 mt-2' /> </NavLink>
-             <NavLink to='linkedin.com/in/george-🦅-0b5b062b3' target='blank'><img src={linkedin} alt={'nav...'} width={40} className='h-9 mr-2 mt-2' /></NavLink>
+             <NavLink to='https://linkedin.com/in/george-🦅-0b5b062b3' target='blank'><img src={linkedin} alt={'nav...'} width={40} className='h-9 mr-2 mt-2' /></NavLink>
              <NavLink to='https://reddit.com/u/toshiro_01' target='blank'><img src={redit} alt={'nav...'} width={35} className='mt-[p] h-11 mr-3'  /></NavLink>
               <a href='mailto:toshiro2002@gmial.com'><button className='bg-gray-800 cursor-pointer rounded-lg px-3 py-[13px] w-40  text-[1.1rem] font-bold ring-1 ring-gray-900 text-gray-50'>Send  message</button></a>
            </div> 
