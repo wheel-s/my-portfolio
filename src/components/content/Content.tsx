@@ -29,7 +29,7 @@ const Content = () => {
   return (
     <div className=' grid justify-center max-md:mt-22 md:mt-30'>
 
-        <div className=' justify-center m-8 p-2 ml-[45px] md:w-[43rem] md:ml-[5rem] ' >
+        <div className=' justify-center m-8 p-2  md:w-[43rem] md:ml-[5rem] ' >
             <img src={hitsugaya} alt={'toshiro'}width={120} className='rounded-full  fadein'/>
             <p className='font-bold text-gray-700 text-[1.6rem] mt-6 '>Hi, I'm George.</p>
             <p className='font-bold text-gray-700 text-[1.6rem] '>FullStack Engineer.</p>
