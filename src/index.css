@@ -1,0 +1,67 @@
+
+@import "tailwindcss";
+@import 'animate.css';
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: hsla(0, 0%, 43%, 1);
+  background-color: hsl(0, 0%, 99%, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.color{
+  background-color: hsla(0, 0%, 98%, 0.9);
+  
+}
+.font{
+    font-family: "Patrick Hand", cursive;
+}
+
+.hover:hover{
+  background: white;
+  transition-duration: 1s;
+  margin-bottom: .2rem;
+  border-radius: .3rem;
+  padding: 8px 8px;
+}
+
+.show{    
+  position: fixed;
+  background-color: hsl(0, 0%, 92%, .99);
+  width: 100%;
+  animation:bounceIn backwards 1s  ;
+  visibility: visible;
+  opacity: 1;
+  display:block;
+  translate: 0 0;
+
+  transition-duration: .9s;
+  @starting-style{
+    opacity: 0;
+    translate: 0 -8vh;
+  }
+}
+
+
+.fadein{
+  opacity: 0;
+  margin-top:4rem;
+  transition: opacity 0.8s ease-out, margin .8s ease-out;
+}
+.visible{
+  opacity: 1;
+ margin-top: 1rem;
+}
+@media (min-width:48rem){
+  .show{
+    display: none;
+  }
+}
+
